@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contener{
+    display: flex;
+    background-color: blue;
+    flex-direction: column;
+    /* height: 37rem; */
+    align-items: center;
+}
+.disply{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: flex-end;
+    background-color: rgba(101, 108, 0, 0.857);
+    width: 24rem;
+    height: 7rem;
+    color: aliceblue;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px 0px;
+}
+input{
+    border: none;
+    background-color: transparent;
+    color: aliceblue;
+    height: 37px;
+    width: 304px;
+    font-size: 37px;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 24rem;
+    height: 27rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px 0px;
+}
+.btns .btn{
+    width: 5rem;
+    border: none;
+    border-radius: 50%;
+    height: 5rem;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgb(197, 197, 255);
+    
+}
+
+.btn1 , .btn2 , .btn3 ,.btn4,.btn8,.btn12,.btn16{
+    background-color: rgba(65, 65, 121, 0.861);
+}
+
+.btn5,.btn6,.btn7,.btn9,.btn10,.btn11,.btn13,.btn14,.btn15,.btn17,.btn18,.btn19{
+    background-color: rgb(33, 33, 33);
+    /* color: palegoldenrod; */
+}
+.btn20{
+    background-color:rgba(112, 107, 57, 0.892);
+    /* color: palegoldenrod; */
+}
